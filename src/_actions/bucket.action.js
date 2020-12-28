@@ -212,7 +212,6 @@ function update_todo(formdata) {
 }
 
 function delete_task(data) {
-    debugger
     const request_data = { taskId: data.todoId }
 
     const requestOptions = {

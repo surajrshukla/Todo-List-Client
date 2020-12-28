@@ -57,7 +57,6 @@ class BucketSearch extends Component {
     }
 
     handleBucketSelected = (ev) => {
-        debugger
         this.props.dispatch(change('BucketSearch', 'name', ev.currentTarget.getAttribute("value")));
         this.handleSearchTreyClose()
     }
